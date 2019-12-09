@@ -6,7 +6,7 @@ variable "secret_key" {
 	default = "SECRET_KEY_HERE"
 }
 variable "region" {
-  default = "us-east-2"
+  default = "us-west-1"
 }
 variable "cidr_vpc" {
   description = "CIDR block for the VPC"
@@ -18,7 +18,7 @@ variable "cidr_subnet" {
 }
 variable "availability_zone" {
   description = "availability zone to create subnet"
-  default = "us-east-2a"
+  default = "us-west-1a"
 }
 variable "public_key_path" {
   description = "Public key path"
@@ -26,7 +26,7 @@ variable "public_key_path" {
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
-  default = "ami-0cf31d971a3ca20d6"
+  default = "ami-024c80694b5b3e51a"
 }
 variable "instance_type" {
   description = "type for aws EC2 instance"
